@@ -1,0 +1,80 @@
+/* Container for the entire footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+    background: linear-gradient(180deg, #a6cf98 0%, #f2ffe9 100%);
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for the footer logo */
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Styling for the footer logo image */
+.footer-logo img {
+    width: 100px; /* Adjust the size as needed */
+}
+
+/* Styling for the footer logo text */
+.footer-logo p {
+    color: #557c55;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Container for the footer links */
+.footer-links {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: #252525;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0;
+}
+
+/* Styling for individual footer links */
+.footer-links li {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+/* Hover effect for footer links */
+.footer-links li:hover {
+    color: #557c55;
+}
+
+/* Container for social media icons */
+.footer-social-icon {
+    display: flex;
+    gap: 20px;
+}
+
+/* Styling for individual social media icon containers */
+.footer-icons-container {
+    padding: 10px;
+    padding-bottom: 6px;
+    background: #ffffff;
+    border: 1px solid #ebebeb;
+    border-radius: 50%;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effect for social media icon containers */
+.footer-icons-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+

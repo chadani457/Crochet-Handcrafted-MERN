@@ -1,0 +1,123 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo section */
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo img {
+    width: 80px;
+    height: auto;
+}
+
+/* Navigation menu */
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    color: #666666;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+    transition: color 0.3s;
+    position: relative;
+}
+
+.nav-menu li:hover {
+    color: #557c55;
+}
+
+.nav-menu hr {
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #557c55;
+    visibility: hidden;
+    position: absolute;
+    bottom: -10px;
+}
+
+.nav-menu li:hover hr {
+    visibility: visible;
+}
+
+/* Login and cart section */
+.nav-login-cart {
+    display: flex;
+    align-items: center;
+    gap:40px;
+
+   
+}
+
+.nav-login-cart button {
+    width: 140px;
+    height: 45px;
+    outline: none;
+    border: 1px solid #cccccc;
+    border-radius: 25px;
+    color: #515151;
+    font-size: 16px;
+    font-weight: 500;
+    background: #a6cf98;
+    cursor: pointer;
+    transition: background 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.nav-login-cart button:hover {
+    background: #557c55;
+    border-color: #557c55;
+    color: #ffffff;
+}
+
+.nav-login-cart img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.nav-login-cart img:hover {
+    transform: scale(1.1);
+}
+
+/* Cart item count badge */
+.nav-cart-count {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    font-size: 14px;
+    background: #ff4141;
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+    top: -20px;
+    left: -50px;
+}
+
+
